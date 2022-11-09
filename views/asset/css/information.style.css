@@ -1,0 +1,24 @@
+.hovermoncss::hover {
+    background-color: rgba(0, 0, 0, 0.603) !important;
+}
+.hovermoncss {
+    background-color: white;
+}
+
+/* .bgimage {
+    background-image: url(../img/istockphoto-1266832146-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+} */
+
+.over {
+    overflow-y: scroll !important;
+    max-height: 25vh !important;
+    background-color: aqua !important;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
