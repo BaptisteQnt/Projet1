@@ -25,3 +25,26 @@
     </div>
     <!-- <div class="p-2 flex-fill bd-highlight">Flex item</div> -->
 </div>
+<div class="container mt-5" id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+            integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+            crossorigin="">
+</script>
+<script type="text/javascript">
+            var map = L.map('map').setView([48.856614, 2.3522219],13);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            minZoom: 1,
+            maxZoom: 19,
+            }).addTo(map);
+
+            L.marker([49.4295387, 2.0807123]).addTo(map)
+            .bindPopup('Voici un exemple de marqueurs que vous retrouverez pour trouver les entreprise en recherche de stagiaire')
+            .openPopup();
+
+</script>
+
+<script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+
+        
