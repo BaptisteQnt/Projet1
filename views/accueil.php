@@ -31,7 +31,7 @@
             crossorigin="">
 </script>
 <script type="text/javascript">
-            var map = L.map('map').setView([48.856614, 2.3522219],13);
+            var map = L.map('map').setView([49.4295387, 2.0807123],13);
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
