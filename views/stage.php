@@ -14,9 +14,7 @@ $embauche->selectInfo();
     <div class="container mt-5">
         <h4 class="mt-3 text-center">Nos conseils pour effectuer une recherche réussite !</h4>
         <p class="mt-5 text-center">
-            lorem ispum lorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem 
-            ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem 
-            ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispumlorem ispum
+            Chercher à allez au maximum dans les locaux de l'entreprise si possible, afin de vous présentez et de déposez votre lettre de motivations et un C.V. Vous aurez toujours plus de chance d'obtenir un stage en vous déplacants.
         </p>
     </div>
     <div style="max-height: 85vh; background-color: #c8c8c8" class=" mt-5 overflow-scroll">

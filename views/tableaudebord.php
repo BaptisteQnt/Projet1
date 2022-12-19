@@ -71,9 +71,9 @@
                     </div>
                 </div>
             </div>
-            <div class="p-5 mt-5 border rounded border-danger bd-highlight">
+            <div class="p-2 mt-5 border rounded border-danger bd-highlight">
                 <div class="d-flex bd-highlight">
-                    <div class="p-2 w-50 flex-fill bd-highlight">Quel type de contrat pensez-vous pourvoir ?</div>
+                    <div class="p-2 w-25 flex-fill bd-highlight">Quel type de contrat pensez-vous pourvoir ?</div>
                     <div class="p-2 flex-fill bd-highlight">
                         <div class="form-check">
                             <input class="form-check-input" name="Aucun" type="checkbox" value="" id="defaultCheck1">
@@ -86,15 +86,7 @@
                         <div class="form-check">
                             <input class="form-check-input" name="CDI" type="checkbox" value="" id="defaultCheck1">
                             <label class="form-check-label" for="defaultCheck1">
-                                CDI
-                            </label>
-                        </div>
-                    </div>
-                    <div class="p-2 flex-fill bd-highlight">
-                        <div class="form-check">
-                            <input class="form-check-input" name="CDD" type="checkbox" value="" id="defaultCheck1">
-                            <label class="form-check-label" for="defaultCheck1">
-                                CDD
+                                CDI/CDD
                             </label>
                         </div>
                     </div>
@@ -102,7 +94,7 @@
                         <div class="form-check">
                             <input class="form-check-input" name="Autre" type="checkbox" value="" id="defaultCheck1">
                             <label class="form-check-label" for="defaultCheck1">
-                                Apprentissage/Autres
+                                Autres
                             </label>
                         </div>
                     </div>

@@ -25,7 +25,7 @@
     </div>
     <!-- <div class="p-2 flex-fill bd-highlight">Flex item</div> -->
 </div>
-<div class="container-fluid mt-5" id="map"></div>
+<div class="container mt-5" id="map"></div>
 <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
             integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
             crossorigin="">

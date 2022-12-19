@@ -35,12 +35,9 @@ if(isset($_POST['validation'])){
         $nom_contrats = 'Aucun';
         $entreprise->setNom_contrats($nom_contrats);
     } else if(isset($_POST['CDI'])){
-        $nom_contrats = 'CDI';
+        $nom_contrats = 'CDI/CDD';
         $entreprise->setNom_contrats($nom_contrats);
-    } else if(isset($_POST['CDD'])){
-        $nom_contrats = 'CDD';
-        $entreprise->setNom_contrats($nom_contrats);
-    } else if (isset($_POST['autre'])) {
+    } else if (isset($_POST['Autre'])) {
         $nom_contrats = 'Apprentissage/Autre';
         $entreprise->setNom_contrats($nom_contrats);
     } else {
