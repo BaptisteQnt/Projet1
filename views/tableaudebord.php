@@ -10,7 +10,7 @@
         <form method="POST">
             <div class="p-2 mt-4 border rounded border-danger bd-highlight">
                 <div class="d-flex bd-highlight">
-                    <div class="p-2 w-25 flex-fill bd-highlight">Est-ce que vous prenez des stagiaire ?</div>
+                    <div class="p-2 w-25 flex-fill bd-highlight">Est-ce que vous prenez des stagiaires ?</div>
                     <div class="p-2 flex-fill bd-highlight">
                         <div class="form-check">
                             <input class="form-check-input" name="ouistage" type="checkbox" value="" id="defaultCheck1">
@@ -31,7 +31,7 @@
             </div>
             <div class="p-2 mt-4 border rounded border-danger bd-highlight">
                 <div class="d-flex bd-highlight">
-                    <div class="p-2 flex-fill w-25 bd-highlight">Est-ce que vous prenez des stagiaire qui sont mineur ? (-18ans)</div>
+                    <div class="p-2 flex-fill w-25 bd-highlight">Est-ce que vous prenez des stagiaire qui sont mineurs ? (-18ans)</div>
                     <div class="p-2 flex-fill bd-highlight">
                         <div class="form-check">
                             <input class="form-check-input" name="ouimineur" type="checkbox" value="" id="defaultCheck1">
@@ -52,7 +52,7 @@
             </div>
             <div class="p-2 mt-4 border border-danger rounded bd-highlight">
                 <div class="d-flex bd-highlight">
-                    <div class="p-2 flex-fill w-25 bd-highlight">Est-ce que vous rechercher a pourvoire un poste au sein de votre entreprise ?</div>
+                    <div class="p-2 flex-fill w-25 bd-highlight">Est-ce que vous rechercher a pourvoir un poste au sein de votre entreprise ?</div>
                     <div class="p-2 flex-fill bd-highlight">
                         <div class="form-check">
                             <input class="form-check-input" name="ouiembauche" type="checkbox" value="" id="defaultCheck1">

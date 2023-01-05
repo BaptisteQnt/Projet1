@@ -5,7 +5,7 @@ if($_SESSION['id_roles'] == "1"){ ?>
     <div class="mt-5 container">
         <h1>Page administrateur du site 1Experience</h1>
         <div class="container mt-5">
-            <h3>Liste des ticket de demande d'aide ou autre</h3>
+            <h3>Liste des tickets de demande d'aide ou autre</h3>
             <div style="max-height: 85vh;" class=" mt-5 overflow-scroll border border-round">
                 <div class="d-flex justify-content-around mt-5 flex-wrap ">
                 <?php foreach ($requete as $key => $affichage) { ?>
@@ -27,10 +27,10 @@ if($_SESSION['id_roles'] == "1"){ ?>
     <div>
         <img src="views/asset/img/2762862.jpg" class="img-fluid" alt="...">
     </div>
-    <h4 class="mt-5">Vous vous êtes perdu sur le site et êtes tomber sur cette page ? Ce n'est pas grave vous allez être redirigé sur l'acceuil automatiquement.</h4>
-    <p class="mt-4 ">Cette page est réserver aux administrateur du site. Elle sert nottament a receuillir les demande de contacte faite par d'autre utilisateur</p>
+    <h4 class="mt-5">Vous vous êtes perdu sur le site et êtes tombé sur cette page ? Ce n'est pas grave, vous allez être redirigé sur l'accueil automatiquement.</h4>
+    <p class="mt-4 ">Cette page est réservée aux administrateurs du site. Elle sert notament a recueillir les demande de contacte faite par d'autres utilisateurs</p>
     <div class="mt-4">
-        <small class="text-secondary">Si la redirection ne marche pas vous pourrez toujours appuyer sur le nom du site dans la barre de naviguation.</small>
+        <small class="text-secondary">Si la redirection ne marche pas vous pourrez toujours appuyer sur le nom du site dans la barre de navigation.</small>
     </div>
 </div>
 <script>
@@ -48,10 +48,10 @@ if($_SESSION['id_roles'] == "1"){ ?>
     <div>
         <img src="views/asset/img/2762862.jpg" class="img-fluid" alt="...">
     </div>
-    <h4 class="mt-5">Vous vous êtes perdu sur le site et êtes tomber sur cette page ? Ce n'est pas grave vous allez être redirigé sur l'acceuil automatiquement.</h4>
-    <p class="mt-4 ">Cette page est réserver aux administrateur du site. Elle sert nottament a receuillir les demande de contacte faite par d'autre utilisateur</p>
+    <h4 class="mt-5">Vous vous êtes perdu sur le site et êtes tombé sur cette page ? Ce n'est pas grave, vous allez être redirigé sur l'accueil automatiquement.</h4>
+    <p class="mt-4 ">Cette page est réserver aux administrateurs du site. Elle sert nottament a recueillir les demandes de contacte faite par d'autres utilisateurs</p>
     <div class="mt-4">
-        <small class="text-secondary">Si la redirection ne marche pas vous pourrez toujours appuyer sur le nom du site dans la barre de naviguation.</small>
+        <small class="text-secondary">Si la redirection ne marche pas vous pourrez toujours appuyer sur le nom du site dans la barre de navigation.</small>
     </div>
 </div>
 <script>

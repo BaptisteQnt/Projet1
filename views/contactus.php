@@ -1,7 +1,7 @@
 <div class="container">
     <h2 class="mt-5 mb-3">Pour nous contacter</h2>
-    <p>Vous pouvez remplir ce petit formulaire ci dessous ou alors directement sur l'adress mail suivante
-        <span>1Expérience.contact@outlook.com</span>Nous vous repondrons avec le plus de rapidité possible
+    <p>Vous pouvez remplir ce petit formulaire ci-dessous ou alors directement sur l'adresse mail suivante
+        <span>1Expérience.contact@outlook.com</span>Nous vous répondrons avec le plus de rapidité possible
     </p>
     <div class="text-center">
         <!-- Message de succes pour dire que le ticket d'aide a bien éte envoyé au support -->

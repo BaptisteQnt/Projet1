@@ -66,7 +66,7 @@
         </div>
         <div class="form-group form-check mb-3">
             <input type="checkbox" name="patron"  class="form-check-input" id="valeur9">
-            <label class="form-check-label" for="exampleCheck1">Êtes-vous un des responsable de l'entreprise ?</label>
+            <label class="form-check-label" for="exampleCheck1">Êtes-vous un des responsables de l'entreprise ?</label>
         </div>
         <div class="form-group mb-5">
             <label for="exampleInputPassword1">Password</label>

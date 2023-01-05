@@ -35,13 +35,13 @@
         </p>
     </div>
     <div class="container text-center mt-5 p-5 border border-danger rounded">
-        <h4>Accédez a votre tableau de bord pour gérer votre apparition et vos critère sur l'outils en ligne "1Expérience"</h4>
+        <h4>Accédez a votre tableau de bord pour gérer votre apparition et vos critères sur l'outil en ligne "1Expérience"</h4>
         <button class="mt-4 btn bg-danger"><a class="nav-link text-light" href="index.php?tbd">Tableau de bord</a></button>
     </div>
     <div class="form-group container mt-5">
-        <h4 class="mt-3">Modifier les information du profils</h4>
-        <p class="mt-3">Certaine informations ne peuvent pas être-modifier pour des raison de sécuriter.
-            comme l'adresse mail et le muméros de siret.
+        <h4 class="mt-3">Modifier les informations du profil</h4>
+        <p class="mt-3">Certaine informations ne peuvent pas être modifier pour des raison de sécurité.
+            comme l'adresse-mail et le muméros de siret.
         </p>
         <form method="POST">
             <label class="mt-3">Modifier le nom de l'entreprise</label>

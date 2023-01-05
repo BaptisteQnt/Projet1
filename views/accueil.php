@@ -1,7 +1,7 @@
 <div class="container">
-    <h2 class="mt-5">Bienvenue sur cette outils en ligne pour faciliter votre recherche et l'accès a l'emplois</h2>
-    <p class="mt-4">Pour beaucoups la première étape pour trouver un trvail est de postuler pour un contart en CDD/CDI/Alternance etc ...
-        alors que le stage est un véritable outils pour espérer trouver un emplois. C'est alors pour ceci que nous avons créer cet outils pour permettre à vous d'augmenter votre chance de retourner a l'emplois mais aussi, de permettre au entreprise de facilité la recherche de personnel qualifié et d'augmenté leurs visibilité.
+    <h2 class="mt-5">Bienvenue sur cet outils en ligne pour faciliter votre recherche et l'accès à l'emploi</h2>
+    <p class="mt-4">Pour beaucoup la première étape pour trouver un travail est de postuler pour un contrat en CDD/CDI/Alternance etc ...
+        alors que le stage est un véritable outil pour espérer trouver un emploi. C'est alors pour ceci que nous avons créer cet outils pour permettre à vous d'augmenter votre chance de retourner a l'emploi, mais aussi de permettre au entreprise de facilité la recherche de personnel qualifié et d'augmenté leurs visibilité.
     </p>
 </div>
 <div class="container mt-5 d-flex bd-highlight">
@@ -9,7 +9,7 @@
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title fw-bold">Entreprise (Se Connecter)</h5>
-                <p class="card-text">Connectez-vous pour gérer votre profils entreprise et affiner vos recherche de stagiaires !</p>
+                <p class="card-text">Connectez-vous pour gérer votre profil entreprise et affiner vos recherche de stagiaires !</p>
                 <a href="index.php?connexion" class="btn btn-danger">Se Connecter</a>
             </div>
         </div>
@@ -17,8 +17,8 @@
     <div class="p-2 flex-fill bd-highlight mt-3">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title fw-bold">Votre entreprise desire participer et nous aidez a atteindre l'objectifs mis en place par ce site !</h5>
-                <p class="card-text">Alors inscrivez-vous et remplissez les critères que vous désirez pour pouvoir accepter les demande d'immersion !</p>
+                <h5 class="card-title fw-bold">Votre entreprise désire participer et nous aider à atteindre l'objectifs mis en place par ce site !</h5>
+                <p class="card-text">Alors inscrivez-vous et remplissez les critères que vous désirez pour pouvoir accepter les demandes d'immersion !</p>
                 <a href="index.php?inscription" class="btn btn-danger">S'inscrire</a>
             </div>
         </div>

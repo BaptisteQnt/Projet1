@@ -3,7 +3,7 @@ $embauche = new Embauche();
 $embauche->selectInfo(); 
 ?>
 <div id="body"  class="container">
-    <h2 class="text-center mt-5 mb-5" >Vous rechercher un stage en entreprise ?</h2>
+    <h2 class="text-center mt-5 mb-5" >Vous recherchez un stage en entreprise ?</h2>
     <div class="bd-highlight mt-5">
         <!-- Début de div avec l'api google maps -->
         <div class="p-2 flex-shrink-1 bd-highlight">
@@ -14,7 +14,7 @@ $embauche->selectInfo();
     <div class="container mt-5">
         <h4 class="mt-3 text-center">Nos conseils pour effectuer une recherche réussite !</h4>
         <p class="mt-5 text-center">
-            Chercher à allez au maximum dans les locaux de l'entreprise si possible, afin de vous présentez et de déposez votre lettre de motivations et un C.V. Vous aurez toujours plus de chance d'obtenir un stage en vous déplacants.
+            Chercher à aller au maximum dans les locaux de l'entreprise si possible, afin de vous présenter et déposez votre lettre de motivations et un C.V. Vous aurez toujours plus de chance d'obtenir un stage en vous déplaçant.
         </p>
     </div>
     <div style="max-height: 85vh; background-color: #c8c8c8" class=" mt-5 overflow-scroll">
@@ -70,7 +70,7 @@ $embauche->selectInfo();
                     console.log(coordLat, coordLong, coordName, coordAdresse);
 
                     var marker = L.marker([coordLat,coordLong]).addTo(map);
-                    marker.bindPopup("<b>"+coordName+"</b><br>"+coordAdresse+"<br>Prends des stagiaire: "+coordStagiare);7
+                    marker.bindPopup("<b>"+coordName+"</b><br>"+coordAdresse+"<br>Prend des stagiaire: "+coordStagiare);7
                     
                 }
             }
