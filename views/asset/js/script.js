@@ -7,13 +7,6 @@ function geo(geolocal){
     var valeur5 = document.getElementById("valeur5").value;
 
     console.log(valeur3, valeur5);
-    // console.log(valeur1);
-    // console.log(valeur2);
-    // console.log(valeur4);
-    // console.log(valeur6);
-    // console.log(valeur7);
-    // console.log(valeur8);
-    // console.log(valeur9);
     
     var lat = null;
     var long = null;
@@ -24,12 +17,10 @@ function geo(geolocal){
     geolocal.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
             var coordonnes = JSON .parse(this.responseText).features[0].geometry.coordinates;
-// console.log(coordonnes);
+
             lat = coordonnes[1];
             long = coordonnes[0];
 
-            // console.log(lat);
-            // console.log(long);
             if(lat!=null && long!=null){
                 sendBase(geolocal, lat, long);
             }

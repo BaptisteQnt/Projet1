@@ -33,6 +33,15 @@ if($_SESSION['id_roles'] == "1"){ ?>
         <small class="text-secondary">Si la redirection ne marche pas vous pourrez toujours appuyer sur le nom du site dans la barre de naviguation.</small>
     </div>
 </div>
+<script>
+    document.addEventListener("onload", redirection())
+    function redirection(){
+        setTimeout(myURL,10000);
+    }
+    function myURL (){
+        document.location.href = "http://localhost/projet1/index.php";
+    }
+</script>
 <?php }} else { ?>
 <div class="mt-5 container">
     <h1 class="text-center mt-5 text-danger">Vous n'êtes pas autorisé a entrer sur cette page.</h1>
@@ -45,7 +54,14 @@ if($_SESSION['id_roles'] == "1"){ ?>
         <small class="text-secondary">Si la redirection ne marche pas vous pourrez toujours appuyer sur le nom du site dans la barre de naviguation.</small>
     </div>
 </div>
-
-
+<script>
+    document.addEventListener("onload", redirection())
+    function redirection(){
+        setTimeout(myURL,10000);
+    }
+    function myURL (){
+        document.location.href = "http://localhost/projet1/index.php";
+    }
+</script>
 
 <?php } ?>
