@@ -7,10 +7,6 @@
     <small class="form-text  text-danger"><?= $formError['passIncorrect'] ?></small>
     <?php } ?>
         
-    <?php
-    if(isset($formError['passValide'])){ ?>
-    <small class="form-text  text-danger"><?= $formError['passValide'] ?></small>
-    <?php } ?>
         
     <?php 
     if(isset($formError['inputVide'])){ ?>
@@ -19,6 +15,10 @@
     <small class="form-text  text-success"><?= $formSucces['succes'] ?></small>
     <?php }  else if (isset($formError['mailValide'])){ ?>
     <small class="form-text  text-danger"><?= $formError['mailValide'] ?></small>
+    <?php } else if (isset($formError['passvalide'])){ ?>
+    <small class="form-text  text-danger"><?= $formError['passvalide'] ?></small>
+    <?php } else if (isset($formSuccess['succes'])){ ?>
+    <small class="form-text  text-danger"><?= $formSuccess['succes'] ?></small>
     <?php }?>
     <!-- Affiche un message de succes quand l'utilisateur a reussie la connexion a son compte existant -->
     <?php
@@ -35,6 +35,7 @@
             <label for="exampleInputPassword1">Mot de passe</label>
             <input name="mdp" type="password" class="form-control" id="exampleInputPassword1">
         </div>
+        
         <button name="validax" type="submit" onclick="changeClass()" class="btn btn-danger mt-4">Se connecter</button>
     </form>
 </div>

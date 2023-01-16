@@ -145,7 +145,7 @@ class Utilisateur extends Database {
         $modification->bindValue(':nom_entreprise',$this->nom_entreprise,PDO::PARAM_STR);
         $modification->bindValue(':adresse',$this->adresse,PDO::PARAM_STR);
         $modification->bindValue(':ville',$this->ville,PDO::PARAM_STR);
-        $modification->bindValue(':departement',$this->departement,PDO::PARAM_STR);
+        $modification->bindValue(':departement',$this->codepostale,PDO::PARAM_STR);
         $modification->bindValue(':nom_con',$this->nom_personne,PDO::PARAM_STR);
         $modification->bindValue(':id',$this->identifiant,PDO::PARAM_INT);
         return $modification->execute();

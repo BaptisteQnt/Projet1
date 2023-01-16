@@ -10,18 +10,16 @@ if(isset($_POST['modifiateur'])){
     $formError = [];
     $tab = [];
     // Verifie si les differents champs désigner ne sont pas vide
-    if(!empty($_POST['modifEntreprise']) && !empty($_POST['modifAdresse']) && !empty($_POST['modifVille']) && !empty($_POST['modifDepartement']) && !empty($_POST['modifContacte'])){
+    if(!empty($_POST['modifEntreprise']) && !empty($_POST['modifVille']) && !empty($_POST['modifContacte'])){
         $nomEntre = htmlspecialchars($_POST['modifEntreprise']);
-        $adresseEntre = htmlspecialchars($_POST['modifAdresse']);
         $villeEntre = htmlspecialchars($_POST['modifVille']);
-        $codePostale = htmlspecialchars($_POST['modifDepartement']);
         $contacteEntre = htmlspecialchars($_POST['modifContacte']);
         // Permet de lancer la procedure pour modifier le profils avec une securiter.
         if(!empty($_POST['oui'])){
             $entreprise->setNom_entreprise($nomEntre);
-            $entreprise->setAdresse($adresseEntre);
+            // $entreprise->setAdresse($adresseEntre);
             $entreprise->setVille($villeEntre);
-            $entreprise->setCodePostale($codePostale);
+            // $entreprise->setCodePostale($codePostale);
             $entreprise->setNompersonne($contacteEntre);
             $entreprise->modifierUtilisateur();
             header('Location: index.php?profil');

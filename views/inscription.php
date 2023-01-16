@@ -5,7 +5,7 @@
         </div>
         <!-- Permet d'afficher des message d'erreur pour les differents champs present sur la page -->
         <?php
-            if(isset($formError['passValide'])){ ?>
+            if(isset($formError['formError'])){ ?>
                     <small class="form-text  text-danger"><?= $formError['passValide'] ?></small>
                 <?php } ?>
             <?php 
