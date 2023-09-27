@@ -155,12 +155,12 @@ class Utilisateur extends Database {
 
     // Permet a l'utilisateur de modifier son profil via son formulaire qui apparait dans la page profils.
     public function modifierUtilisateur(){
-        $req = 'UPDATE entreprise SET nom_entreprise = :nom_entreprise, ville= :ville, nom_contact= :nom_con WHERE identifiant= :id';
+        $req = 'UPDATE entreprise SET nom_entreprise = :nom_entreprise, adresse= :adresse,ville= :ville, departement= :departement, nom_contact= :nom_con WHERE identifiant= :id';
         $modification = $this->db->prepare($req);
         $modification->bindValue(':nom_entreprise',$this->nom_entreprise,PDO::PARAM_STR);
-        // $modification->bindValue(':adresse',$this->adresse,PDO::PARAM_STR);
+        $modification->bindValue(':adresse',$this->adresse,PDO::PARAM_STR);
         $modification->bindValue(':ville',$this->ville,PDO::PARAM_STR);
-        // $modification->bindValue(':departement',$this->codepostale,PDO::PARAM_STR);
+        $modification->bindValue(':departement',$this->codepostale,PDO::PARAM_STR);
         $modification->bindValue(':nom_con',$this->nom_personne,PDO::PARAM_STR);
         $modification->bindValue(':id',$this->identifiant,PDO::PARAM_INT);
         return $modification->execute();

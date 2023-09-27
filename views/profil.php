@@ -46,12 +46,12 @@
         <form method="POST">
             <label class="mt-3">Modifier le nom de l'entreprise</label>
             <input name="modifEntreprise" type="text" class="form-control mt-2" value="<?php echo $entreprises->nom_entreprise ?>" />
-            <!-- <label class="mt-3">Modifier l'adresse de l'entreprise</label>
-            <input name="modifAdresse" type="text" class="form-control mt-2" value=""/> -->
+            <label class="mt-3">Modifier l'adresse de l'entreprise</label>
+            <input name="modifAdresse" type="text" class="form-control mt-2" value="<?php echo $entreprises->adresse ?>"/>
             <label class="mt-3">Modifier la ville de l'entreprise</label>
             <input name="modifVille" type="text" class="form-control mt-2" value="<?php echo $entreprises->ville ?>"/>
-            <!-- <label class="mt-3">Modifier le departement de l'entreprise</label>
-            <input name="modifDepartement" type="text" class="form-control mt-2" value=""/> -->
+            <label class="mt-3">Modifier le departement de l'entreprise</label>
+            <input name="modifDepartement" type="text" class="form-control mt-2" value="<?php echo $entreprises->CodePostale ?>"/>
             <label class="mt-3">Modifier le nom du contact de l'entreprise</label>
             <input name="modifContacte" type="text" class="form-control mt-2 mb-3" value="<?php echo $entreprises->nom_contact ?>"/>
             <div class="form-group form-check mt-3 ">

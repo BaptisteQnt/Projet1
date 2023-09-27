@@ -1,3 +1,28 @@
+<div class="modal" id="myModal1">
+        <div class="modal-content">
+            <span class="close" id="closeModal1">&times;</span>
+            <h2>Projet de fin de formations</h2>
+            <p class="mt-4">Voici mon projet réaliser afin de passer l'examen de fin de formation Développeur Web et Web Mobile
+                <br/>Réaliser afin de correspondre au objectifs attendu pour l'obtention du titre professionnel
+            </p>
+            <div class="d-flex justify-content-around">
+                <div>
+                    <p>Langage : HTML / CSS / Javascript / PHP</p>
+                    <p>Gestion de Donnée avec MySQL</p>
+                    <p>Interaction avec des API : Leaflet / API AdresseGouv</p>
+                </div>
+                <div>
+                    <p>Une partie Administrateur</p>
+                    <p>Programmation Orienté Objet / POO</p>
+                    <p>Index d'annonces</p>
+                </div>
+            </div>
+            <div class="mt-3">
+                <h3 class="mt-2">Contacter-moi afin d'exprimer vos critique sur le projet : Baptiste.qnt@gmail.com</h3>
+                <p class="mt-3">N'hésiter pas a me faire un retour sur mon projet car je sais qu'il n'est pas parfait et avoir l'avis de développeur professionnelle est toujours constructifs afin d'ameliorer et apprendre mes connaissances</p>
+            </div>
+        </div>
+    </div>
 <div class="container">
     <h2 class="mt-5">Bienvenue sur cet outils en ligne pour faciliter votre recherche et l'accès à l'emploi</h2>
     <p class="mt-4">Pour beaucoup la première étape pour trouver un travail est de postuler pour un contrat en CDD/CDI/Alternance etc ...
@@ -25,7 +50,7 @@
     </div>
     <!-- <div class="p-2 flex-fill bd-highlight">Flex item</div> -->
 </div>
-<div class="container mt-5" id="map"></div>
+<div class="container mt-5" id="map" style="z-index: 0;"></div>
 <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
             integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
             crossorigin="">
@@ -46,5 +71,27 @@
 </script>
 
 <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+<script>
+const modal = document.getElementById("myModal1");
+const closeModal = document.getElementById("closeModal1");
+
+// Fonction pour afficher la fenêtre modale
+function openModal() {
+    modal.style.display = "block";
+    console.log("it's ok");
+}
+
+// Fonction pour fermer la fenêtre modale
+function closeModalWindow() {
+    modal.style.display = "none";
+}
+
+// Écoutez l'événement de chargement de la page et affichez la fenêtre modale
+window.addEventListener("load", openModal);
+
+// Écoutez l'événement de clic sur le bouton de fermeture
+closeModal.addEventListener("click", closeModalWindow);
+
+console.log("It's OK !")</script>
 
         

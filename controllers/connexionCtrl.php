@@ -19,7 +19,7 @@ if(isset($_POST['validax'])){
         if(mb_strlen($_POST['mdp'])>=8){
             $pass = htmlspecialchars($_POST['mdp']);
         } else {
-            $formError['passvalide'] = "Le mots de passe est trop court";
+            $formError['passvalide'] = "Le mots de est trop court";
         }
     } else {
         $formError['inputVide'] = "Tous les champs doivent être rempli";
