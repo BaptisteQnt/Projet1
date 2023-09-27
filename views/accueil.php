@@ -1,9 +1,9 @@
 <div class="modal" id="myModal1">
         <div class="modal-content">
             <span class="close" id="closeModal1">&times;</span>
-            <h2>Projet de fin de formations</h2>
+            <h2>Projet de fin de formation</h2>
             <p class="mt-4">Voici mon projet réaliser afin de passer l'examen de fin de formation Développeur Web et Web Mobile
-                <br/>Réaliser afin de correspondre au objectifs attendu pour l'obtention du titre professionnel
+                <br/>Réaliser afin de correspondre aux objectifs attendu pour l'obtention du titre professionnel
             </p>
             <div class="d-flex justify-content-around">
                 <div>
@@ -18,15 +18,15 @@
                 </div>
             </div>
             <div class="mt-3">
-                <h3 class="mt-2">Contacter-moi afin d'exprimer vos critique sur le projet : Baptiste.qnt@gmail.com</h3>
-                <p class="mt-3">N'hésiter pas a me faire un retour sur mon projet car je sais qu'il n'est pas parfait et avoir l'avis de développeur professionnelle est toujours constructifs afin d'ameliorer et apprendre mes connaissances</p>
+                <h3 class="mt-2">Contactez-moi afin d'exprimer vos critiques sur le projet : Baptiste.qnt@gmail.com</h3>
+                <p class="mt-3">N'hésitez pas a me faire un retour sur mon projet, car je sais qu'il n'est pas parfait et avoir l'avis de développeur professionnel est toujours constructifs afin d'améliorer et approfondir mes connaissances</p>
             </div>
         </div>
     </div>
 <div class="container">
-    <h2 class="mt-5">Bienvenue sur cet outils en ligne pour faciliter votre recherche et l'accès à l'emploi</h2>
-    <p class="mt-4">Pour beaucoup la première étape pour trouver un travail est de postuler pour un contrat en CDD/CDI/Alternance etc ...
-        alors que le stage est un véritable outil pour espérer trouver un emploi. C'est alors pour ceci que nous avons créer cet outils pour permettre à vous d'augmenter votre chance de retourner a l'emploi, mais aussi de permettre au entreprise de facilité la recherche de personnel qualifié et d'augmenté leurs visibilité.
+    <h2 class="mt-5">Bienvenue sur cet outil en ligne pour faciliter votre recherche et l'accès à l'emploi</h2>
+    <p class="mt-4">Pour beaucoup, la première étape pour trouver un travail est de postuler pour un contrat en CDD/CDI/Alternance etc ...
+        alors que le stage est un véritable outil pour espérer trouver un emploi. C'est d'ailleurs pour cela que nous avons créé cet outil pour permettre à vous d'augmenter votre chance de retourner à l'emploi, mais aussi de permettre aux entreprises de facilité la recherche de personnel qualifié et d'augmenter leurs visibilités.
     </p>
 </div>
 <div class="container mt-5 d-flex bd-highlight">
@@ -34,7 +34,7 @@
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title fw-bold">Entreprise (Se Connecter)</h5>
-                <p class="card-text">Connectez-vous pour gérer votre profil entreprise et affiner vos recherche de stagiaires !</p>
+                <p class="card-text">Connectez-vous pour gérer votre profil entreprise et affiner vos recherches de stagiaires !</p>
                 <a href="index.php?connexion" class="btn btn-danger">Se Connecter</a>
             </div>
         </div>
@@ -42,7 +42,7 @@
     <div class="p-2 flex-fill bd-highlight mt-3">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title fw-bold">Votre entreprise désire participer et nous aider à atteindre l'objectifs mis en place par ce site !</h5>
+                <h5 class="card-title fw-bold">Votre entreprise désire participer et nous aider à atteindre l'objectif mis en place par ce site !</h5>
                 <p class="card-text">Alors inscrivez-vous et remplissez les critères que vous désirez pour pouvoir accepter les demandes d'immersion !</p>
                 <a href="index.php?inscription" class="btn btn-danger">S'inscrire</a>
             </div>
@@ -65,7 +65,7 @@
             }).addTo(map);
 
             L.marker([49.4295387, 2.0807123]).addTo(map)
-            .bindPopup('Voici un exemple de marqueurs que vous retrouverez pour trouver les entreprise en recherche de stagiaire')
+            .bindPopup('Voici un exemple de marqueurs que vous retrouverez pour trouver les entreprises en recherche de stagiaire')
             .openPopup();
 
 </script>

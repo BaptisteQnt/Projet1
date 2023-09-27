@@ -152,7 +152,7 @@
                 </ul>
             </div>
             <div class="mt-3 mb-3">
-                <p class="text-start text-wrap text-light"><span class="fs-2 fw-bold me-2">1Experience,</span> un outils pour vous aidez et nous aider</p>
+                <p class="text-start text-wrap text-light"><span class="fs-2 fw-bold me-2">1Experience,</span> un outil pour vous aidez et nous aider.</p>
                 <div class="text-center d-flex">
                     <div class="p-2 flex-fill">
                         <svg xmlns="http://www.w3.org/2000/svg" style="color:white" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
